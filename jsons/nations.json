@@ -1,25 +1,27 @@
-{
-    "name": "Mindustry",
-    "leaderName": "Evven",
-    "adjective": ["industrial"],
-    "preferredVictoryType": "Scientific",
+[
+    {
+        "name": "Mindustry",
+        "leaderName": "Evven",
+        "adjective": ["industrial"],
+        "preferredVictoryType": "Scientific",
 
-    "startIntroPart1": "",
-    "startIntroPart2": "",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
 
-    "declaringWar": "",
-    "attacked": "",
-    "defeated": "",
-    "introduction": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
 
-    "neutralHello": "",
-    "hateHello": "",
+        "neutralHello": "",
+        "hateHello": "",
 
-    "tradeRequest": "",
+        "tradeRequest": "",
 
-    "outerColor": [],
-    "innerColor": [],
-    "uniqueName": "",
-    "uniques": [""],
-    "cities": [""]
-}
+        "outerColor": [],
+        "innerColor": [],
+        "uniqueName": "",
+        "uniques": [""],
+        "cities": [""]
+    }
+]

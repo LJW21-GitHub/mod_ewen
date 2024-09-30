@@ -3,9 +3,53 @@
 		"name": "Dagger",
 		"uniqueTo": "Mindustry",
 		"unitType": "Melee",
+        "obsoleteTech": "Iron Wroking",
 		"cost": 50,
 		"movement": 2,
 		"strength": 10,
+		"uniques": ["Only available <in cities with a [Ground Factory]>"]
+	},
+    {
+		"name": "Mace",
+		"uniqueTo": "Mindustry",
+		"unitType": "Melee",
+        "requiredTech": "Iron Working",
+        "obsoleteTech": "Metallurgy",
+		"cost": 100,
+		"movement": 2,
+		"strength": 17,
 		"uniques": ["Only available <in cities with a [Additive Reconstructor]>"]
+	},
+    {
+		"name": "Fortress",
+		"uniqueTo": "Mindustry",
+		"unitType": "Melee",
+        "requiredTech": "Metallurgy",
+        "obsoleteTech": "Combustion",
+		"cost": 200,
+		"movement": 2,
+		"strength": 27,
+		"uniques": ["Only available <in cities with a [Multiplicative Reconstructor]>"]
+	},
+    {
+		"name": "Scepter",
+		"uniqueTo": "Mindustry",
+		"unitType": "Melee",
+        "requiredTech": "Combustion",
+        "obsoleteTech": "Robotics",
+		"cost": 400,
+		"movement": 2,
+		"strength": 67,
+		"uniques": ["Only available <in cities with a [Exponential Reconstructor]>"]
+	},
+    {
+		"name": "Reign",
+		"uniqueTo": "Mindustry",
+		"unitType": "Melee",
+        "requiredTech": "Robotics",
+		"cost": 500,
+		"movement": 2,
+		"strength": 130,
+		"uniques": ["Only available <in cities with a [Tetrative Reconstructor]>"]
 	}
 ]

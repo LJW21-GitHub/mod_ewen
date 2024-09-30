@@ -2,11 +2,14 @@
     {
 		"name": "Dagger",
 		"uniqueTo": "Mindustry",
-		"unitType": "Melee",
+		"unitType": "Ranged",
         "obsoleteTech": "Iron Wroking",
 		"cost": 50,
 		"movement": 2,
-		"strength": 10,
+		"strength": 8,
+        "rangedStrengh": 5,
+        "range": 2,
+		"upgradesTo": "Mace",
 		"uniques": ["Only available <in cities with a [Ground Factory]>"]
 	},
     {
@@ -18,38 +21,62 @@
 		"cost": 100,
 		"movement": 2,
 		"strength": 17,
-		"uniques": ["Only available <in cities with a [Additive Reconstructor]>"]
+        "upgradesTo": "Fortress",
+		"uniques": ["Only available <in cities with a [{Ground Factory} {Additive Reconstructor}]>"]
 	},
     {
 		"name": "Fortress",
 		"uniqueTo": "Mindustry",
-		"unitType": "Melee",
+		"unitType": "Ranged",
         "requiredTech": "Metallurgy",
         "obsoleteTech": "Combustion",
 		"cost": 200,
 		"movement": 2,
 		"strength": 27,
-		"uniques": ["Only available <in cities with a [Multiplicative Reconstructor]>"]
+        "rangedStrengh": 5,
+        "range": 3,
+        "upgradesTo": "Scepter",
+		"uniques": ["Only available <in cities with a [{Ground Factory} {Multiplicative Reconstructor}]>"]
 	},
     {
 		"name": "Scepter",
 		"uniqueTo": "Mindustry",
-		"unitType": "Melee",
+		"unitType": "Ranged",
         "requiredTech": "Combustion",
         "obsoleteTech": "Robotics",
 		"cost": 400,
 		"movement": 2,
 		"strength": 67,
-		"uniques": ["Only available <in cities with a [Exponential Reconstructor]>"]
+        "rangedStrengh": 5,
+        "range": 3,
+        "upgradesTo": "Reign",
+		"uniques": ["Only available <in cities with a [{Ground Factory} {Exponential Reconstructor}]>"]
 	},
     {
 		"name": "Reign",
 		"uniqueTo": "Mindustry",
-		"unitType": "Melee",
+		"unitType": "Ranged",
         "requiredTech": "Robotics",
 		"cost": 500,
 		"movement": 2,
 		"strength": 130,
-		"uniques": ["Only available <in cities with a [Tetrative Reconstructor]>"]
+        "rangedStrengh": 5,
+        "range": 3,
+		"uniques": ["Only available <in cities with a [{Ground Factory} {Tetrative Reconstructor}]>"]
+	},
+
+
+
+    {
+		"name": "Crawler",
+		"uniqueTo": "Mindustry",
+		"unitType": "Melee",
+		"cost": 60,
+		"movement": 2,
+		"strength": 7,
+		"uniques": ["Only available <in cities with a [Ground Factory]>",
+            "Self-destructs when attacking",
+            "Blast radius [2]",
+            "Cost increases by [20] when built"]
 	}
 ]

@@ -1,0 +1,25 @@
+{
+    "name": "Mindustry",
+    "leaderName": "Evven",
+    "adjective": ["industrial"],
+    "preferredVictoryType": "Scientific",
+
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "",
+    "attacked": "",
+    "defeated": "",
+    "introduction": "",
+
+    "neutralHello": "",
+    "hateHello": "",
+
+    "tradeRequest": "",
+
+    "outerColor": [],
+    "innerColor": [],
+    "uniqueName": "",
+    "uniques": [""],
+    "cities": [""]
+}

@@ -1,0 +1,11 @@
+[
+    {
+		"name": "Dagger",
+		"uniqueTo": "Mindustry",
+		"unitType": "Melee",
+		"cost": 50,
+		"movement": 2,
+		"strength": 10,
+		"uniques": ["Only available <in cities with a [Additive Reconstructor]>"]
+	}
+]

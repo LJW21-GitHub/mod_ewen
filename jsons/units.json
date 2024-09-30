@@ -22,7 +22,9 @@
 		"movement": 2,
 		"strength": 17,
         "upgradesTo": "Fortress",
-		"uniques": ["Only available <in cities with a [{Ground Factory} {Additive Reconstructor}]>"]
+		"uniques": [
+            "Only available <in cities with a [{Ground Factory} {Additive Reconstructor}]>",
+            "Destroys tile improvements when attacking"]
 	},
     {
 		"name": "Fortress",
@@ -74,7 +76,8 @@
 		"cost": 60,
 		"movement": 2,
 		"strength": 7,
-		"uniques": ["Only available <in cities with a [Ground Factory]>",
+		"uniques": [
+            "Only available <in cities with a [Ground Factory]>",
             "Self-destructs when attacking",
             "Blast radius [2]",
             "Cost increases by [20] when built"]

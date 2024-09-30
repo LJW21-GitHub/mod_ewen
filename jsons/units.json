@@ -3,7 +3,6 @@
 		"name": "Dagger",
 		"uniqueTo": "Mindustry",
 		"unitType": "Ranged",
-        "obsoleteTech": "Iron Wroking",
 		"cost": 50,
 		"movement": 2,
 		"strength": 8,
@@ -17,7 +16,6 @@
 		"uniqueTo": "Mindustry",
 		"unitType": "Melee",
         "requiredTech": "Iron Working",
-        "obsoleteTech": "Metallurgy",
 		"cost": 100,
 		"movement": 2,
 		"strength": 17,
@@ -31,7 +29,6 @@
 		"uniqueTo": "Mindustry",
 		"unitType": "Ranged",
         "requiredTech": "Metallurgy",
-        "obsoleteTech": "Combustion",
 		"cost": 200,
 		"movement": 2,
 		"strength": 27,
@@ -45,7 +42,6 @@
 		"uniqueTo": "Mindustry",
 		"unitType": "Ranged",
         "requiredTech": "Combustion",
-        "obsoleteTech": "Robotics",
 		"cost": 400,
 		"movement": 2,
 		"strength": 67,
@@ -75,11 +71,12 @@
 		"unitType": "Melee",
 		"cost": 60,
 		"movement": 2,
-		"strength": 7,
+		"strength": 15,
 		"uniques": [
             "Only available <in cities with a [Ground Factory]>",
             "Self-destructs when attacking",
             "Blast radius [2]",
-            "Cost increases by [20] when built"]
+            "Cost increases by [20] when built",
+            "[-100]% Strength <when defending>"]
 	}
 ]
